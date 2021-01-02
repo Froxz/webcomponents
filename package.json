@@ -1,0 +1,36 @@
+{
+  "name": "webcomponents",
+  "version": "1.0.0",
+  "description": "webcomponents",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "mix",
+    "development": "development",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "production",
+    "production": "mix --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Froxz/webcomponents.git"
+  },
+  "dependencies": {
+    "css-loader": "^3.6.0",
+    "laravel-mix": "https://github.com/Froxz/laravel-mix.git#custom-latest",
+    "sass": "^1.32.0",
+    "sass-loader": "^10.1.0",
+    "vue": "^2.6.12",
+    "vue-custom-element": "^3.2.14",
+    "postcss": "^8.2.2",
+    "vue-loader": "^15.9.6",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Froxz/webcomponents/issues"
+  },
+  "homepage": "https://github.com/Froxz/webcomponents#readme"
+}
